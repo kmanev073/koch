@@ -1,0 +1,31 @@
+{
+  "name": "koch",
+  "version": "1.0.0",
+  "description": "A functional programing language written in TypeScript.",
+  "scripts": {
+    "run-development": "ts-node-dev --transpileOnly ./app/app.ts",
+    "build-production": "tsc",
+    "run-production": "tsc && node ./build/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmanev073/koch.git"
+  },
+  "keywords": [
+    "functional",
+    "programing",
+    "language",
+    "ts",
+    "TypeScript"
+  ],
+  "author": "Kaloyan Manev",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/kmanev073/koch/issues"
+  },
+  "homepage": "https://github.com/kmanev073/koch#readme",
+  "dependencies": {
+    "ts-node-dev": "^1.0.0-pre.43",
+    "typescript": "^3.6.3"
+  }
+}
